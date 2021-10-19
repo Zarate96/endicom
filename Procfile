@@ -1,1 +1,1 @@
-web: gunicorn sitehz.wsgi --log-file -
+web: gunicorn siteEndicom.wsgi --log-file -
