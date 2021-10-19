@@ -1,0 +1,1 @@
+web: gunicorn sitehz.wsgi --log-file -
