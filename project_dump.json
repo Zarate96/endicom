@@ -1,0 +1,627 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$8zn9iXdkOlfAvXytSfFaAZ$5/c38ToJ4/pn8tZ4AYOTF+qPghx3zJtXMmICvRT0RmE=",
+        "last_login": "2021-10-16T17:24:08.484Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@mail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-10-15T05:09:29.524Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "txrjfrmleipylmxmwbv9k8uhk5bym8hh",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pChyAAu3XsGMjAgVUOT0q6Md7dNutDte-__twi0LjWsPc9hZHERSpx-WaT0zG0X_KB2n2Sa2jKPUe6JPGyXt4nz63q0fweVet3WqKzX7AZOrJAgkfKE2rvExplMSOfiLAAUv5HMcdBIBdCCdga91-LzBeBDN4A:1mbnPk:sCkskdR8gEYthJ9VW0FdESCNtDAjLbRR3Xq33JR2hrw",
+        "expire_date": "2021-10-30T17:24:08.569Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vxgw0rtqnodznzygrnqosgcf5rbywh22",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pChyAAu3XsGMjAgVUOT0q6Md7dNutDte-__twi0LjWsPc9hZHERSpx-WaT0zG0X_KB2n2Sa2jKPUe6JPGyXt4nz63q0fweVet3WqKzX7AZOrJAgkfKE2rvExplMSOfiLAAUv5HMcdBIBdCCdga91-LzBeBDN4A:1mbFTV:0HAFU0fK3_n5J-UwGd4ZJ3envbAhixXJqHL8LC4-wPY",
+        "expire_date": "2021-10-29T05:09:45.621Z"
+    }
+},
+{
+    "model": "pages.proyectos",
+    "pk": 1,
+    "fields": {
+        "nombre": "ENLACE",
+        "descripcion_corta": "LA PLATAFORMA DIGITAL DE COMPRAS PARA EL SECTOR SALUD PRIVADO.",
+        "etapa": "Producción",
+        "contenido": "<p style=\"text-align:justify\">En M&eacute;xico y muchos pa&iacute;ses del mundo el sector salud gubernamental no cubre las necesidades de muchas personas ( por limitantes propias de los sistemas o por que los usuarios buscan alguna alternativa de mayor calidad y confiabilidad), en mercados geogr&aacute;ficamente extensos y dada la propia naturaleza del sector se han desarrollado infinidad de cl&iacute;nicas, hospitales, laboratorios, consultorios dentales de todo tama&ntilde;o y distribuidos en toda la geograf&iacute;a de un pa&iacute;s que demandan insumos para su correcta operaci&oacute;n diaria, el mercado de suministros m&eacute;dico tiene una infinidad de productos (gen&eacute;ricos y de especialidad) as&iacute; como un vasto n&uacute;mero de proveedores locales y regionales, estas caracter&iacute;sticas hacen muy dif&iacute;cil el contar con insumos adecuades en tiempo y forma en localidades fuera de las &aacute;reas densamente pobladas debido a las ineficiencias del modelo tradicional de distribuci&oacute;n en 2 o 3 pasos.</p>\r\n\r\n<p style=\"text-align:justify\">ENLACE mediante su plataforma digital permite a los usuarios publicar sus listas de requerimientos y recibir cotizaciones de proveedores sin importar su ubicaci&oacute;n geogr&aacute;fica, de esta forma el cliente/usuario no est&aacute; sujeto a las limitantes de los inventarios de dos o tres proveedores locales, en el mejor de los casos, y cuenta con los inventarios de todos los proveedores registrados en la plataforma, as&iacute; contar&aacute; con un surtido al 100% todas las veces y podr&aacute; elegir la alternativa de precio que mejor le parezca, esta es la promesa de ENLACE: recibe tus requerimientos completos todas las veces, en las condiciones de precio que elegiste y todo desde la comodidad de tu escritorio, sin llamadas telef&oacute;nicas, embarques incompletos, m&uacute;ltiples facturas y pagos, etc.</p>\r\n\r\n<p style=\"text-align:justify\">Para los proveedores, ENLACE les permite vender sus productos en todo el territorio sin la inversi&oacute;n de centros de distribuci&oacute;n, vendedores for&aacute;neos, riesgo de cobranza, multiplicidad de inventarios, gastos administrativos duplicados, tan f&aacute;cil como cotizar los requerimientos de los clientes en la plataforma y realizar el env&iacute;o de los productos una vez que reciban la orden de compra de ENLACE, listo, presencia a nivel nacional sin gastos ni riesgos, ENLACE garantiza el pago de todos los pedidos.</p>",
+        "fecha": "2021-10-15T05:12:04Z",
+        "activa": true,
+        "url_imagen": "https://hzaratecode.com/LOGO_ENLACE_TRANSPARENTE.png",
+        "url": "enlace"
+    }
+},
+{
+    "model": "pages.proyectos",
+    "pk": 2,
+    "fields": {
+        "nombre": "FLETE SEGURO",
+        "descripcion_corta": "SOLUCIONES DIGITALES PARA LA ENTREGA DE ULTIMA MILLA.",
+        "etapa": "Desarrollo",
+        "contenido": "<p style=\"text-align:justify\">Muchas empresas micro, peque&ntilde;as y medianas no cuentan con una flotilla de transporte propio para entregas de &uacute;ltima milla o en distintas &eacute;pocas la demanda rebasa la capacidad instalada de la flotilla, por lo que recurren a servicios externos de transporte.</p>\r\n\r\n<p style=\"text-align:justify\">En la mayor&iacute;a de los casos ya cuentan con alg&uacute;n transportista que les brinda este servicio, pero cuando &eacute;stos no se encuentran disponibles para realizar el servicio o no se tiene alg&uacute;n proveedor determinado contratar estos servicios es complicado pues no se trata de empresas establecidas sino de &ldquo;hombres cami&oacute;n&rdquo;, peque&ntilde;os propietarios de una o dos unidades de los cuales el cliente no sabe nada y no tiene ninguna referencia, por lo que siempre es un riesgo contratar un servicio nuevo, de esto se valen los transportistas regulares que tienen sus tarifas establecidas y que generalmente no son las mejores al no tener mayor competencia con dicho cliente.</p>\r\n\r\n<p style=\"text-align:justify\">Datos de la industria del autotransporte de carga estiman que tan s&oacute;lo en la CDMX se realizan 10,000 viajes de entrega de ultima milla cada d&iacute;a, si esto lo replicamos a las principales ciudades de la Rep&uacute;blica Mexicana nos podemos dar una idea de la magnitud del mercado, la CANACAR reporta alrededor de 115,000 hombres-cami&oacute;n registrados en la asociaci&oacute;n, m&aacute;s un n&uacute;mero indeterminado que no est&aacute;n registrados.</p>\r\n\r\n<p style=\"text-align:justify\">Dada la relativa informalidad de este subsector de la industria de autotransporte los operadores (hombres camioneta) tienen un porcentaje de utilizaci&oacute;n de sus equipos relativamente bajo (menos del 60%) y una base de gastos fija que cubrir, por otro lado, los clientes que demandan este servicio no tienen forma de acceder a este enorme &ldquo;pool&rdquo; de recursos dado que no hay bases de datos, directorios y los operadores no hacen un esfuerzo serio y continuado de promoci&oacute;n y ventas.</p>\r\n\r\n<p style=\"text-align:justify\">El cliente enfrenta el dilema de a qui&eacute;n contratar que sea confiable y que le ofrezca una tarifa competitiva y el transportista no tiene los medios para acceder al universo de clientes potenciales que demandan sus servicios.</p>\r\n\r\n<p style=\"text-align:justify\">FLETE SEGURO aborda esta problem&aacute;tica mediante su plataforma digital donde los clientes suben sus solicitudes de servicio y reciben m&uacute;ltiples cotizaciones de los diferentes transportistas ( a diferencia de otros servicios en l&iacute;nea no hay una tarifa establecida, el transportista cotiza de acuerdo a sus criterios de utilizaci&oacute;n y oportunidad, por lo que el cliente puede recibir cotizaciones realmente atractivas), los operadores est&aacute;n verificados por FLETE SEGURO y el cliente puede ver sus evaluaciones en l&iacute;nea antes de contratar el servicio.</p>\r\n\r\n<p style=\"text-align:justify\">Otro diferenciador clave es que FLETE SEGURO ofrecer&aacute; un seguro para la carga (es opcional para el cliente) con costo, algo que ning&uacute;n transportista de &uacute;ltima milla ofrece y que le permitir&aacute; al cliente tener la tranquilidad con el servicio.</p>\r\n\r\n<p style=\"text-align:justify\">Todos los tr&aacute;mites administrativos: solicitudes, pagos, reclamos, excepciones se tratan con FLETE SEGURO por lo que todo esto se simplifica.</p>\r\n\r\n<p style=\"text-align:justify\">El transportista recibe su pago una vez por semana ya que complet&oacute; el proceso de sus viajes, mediante una transferencia bancaria.</p>",
+        "fecha": "2021-10-15T05:12:42Z",
+        "activa": true,
+        "url_imagen": "https://hzaratecode.com/LOGO_FLETE_TRANSPARENTE.png",
+        "url": "flete-seguro"
+    }
+},
+{
+    "model": "pages.proyectos",
+    "pk": 3,
+    "fields": {
+        "nombre": "EL CASTOR",
+        "descripcion_corta": "LLEVANDO A LA INDUSTRIA DE LA CONSTRUCCION AL MUNDO DEL E-COMMERCE PARA TODOS.",
+        "etapa": "Planeación",
+        "contenido": "<p style=\"text-align:justify\">El mercado de materiales de construcci&oacute;n e insumos es de dimensiones enormes y existe predominantemente un modelo de distribuci&oacute;n en dos pasos: fabricante/distribuidor/cliente.</p>\r\n\r\n<p style=\"text-align:justify\">En ambos lados del mercado, demanda (arquitectos, constructoras, contratistas, etc.) y oferta (casas de materiales, distribuidores, tiendas de home improvement) hay una multiplicidad de participantes y el mercado es local o regional.</p>\r\n\r\n<p style=\"text-align:justify\">El proceso tradicional consiste en elaborar la lista de requerimientos, solicitar m&uacute;ltiples cotizaciones y seleccionar la opci&oacute;n deseada, un proceso tedioso y tardado que se repite en m&uacute;ltiples ocasiones durante el desarrollo de una obra.</p>\r\n\r\n<p style=\"text-align:justify\">Cada vez m&aacute;s y m&aacute;s constructoras, arquitectos y contratistas se inclinan a los servicios en l&iacute;nea que ofrecen las tiendas de home improvement (HOME DEPOT, SODIMAC y algunas otras agrupaciones) que son convenientes por la facilidad del proceso m&aacute;s no por tener las mejores condiciones de precio y tiempo de entrega.</p>\r\n\r\n<p style=\"text-align:justify\">Los proveedores tradicionales est&aacute;n en desventaja frente a estos jugadores pues no tienen una presencia en l&iacute;nea que abarque todo el proceso de compra, y no la tendr&aacute;n por la misma naturaleza del negocio y las limitantes de dichos proveedores.</p>\r\n\r\n<p style=\"text-align:justify\">EL CASTOR les ofrece a los proveedores en este sector una presencia en l&iacute;nea frente a los compradores que ya tienen la intenci&oacute;n/necesidad de comprar sus requerimientos sin invertir en recursos de TI y a los compradores una forma de comprar sus materiales de cualquier tipo en las condiciones que ellos elijan de una manera super simple, sustituyendo as&iacute; el tedioso proceso de cotizar, hacer cuadros comparativos, emitir m&uacute;ltiples &oacute;rdenes de compra y pagos.</p>\r\n\r\n<p style=\"text-align:justify\">Los clientes pueden optar por comprar todos sus requerimientos a un solo proveedor o fraccionar su compra en varios proveedores y s&oacute;lo tendr&aacute;n que hacer un &uacute;nico pago y el proceso de generaci&oacute;n de las &oacute;rdenes de compra es autom&aacute;tico por EL CASTOR, la plataforma retiene el pago al proveedor hasta que se hayan entregado a satisfacci&oacute;n los productos al cliente.</p>\r\n\r\n<p style=\"text-align:justify\">El proveedor tiene garantizado el pago por EL CASTOR una vez que complet&oacute; el proceso de la orden en la plataforma y recibe su pago una vez por semana.</p>",
+        "fecha": "2021-10-15T05:20:10Z",
+        "activa": true,
+        "url_imagen": "https://hzaratecode.com/LOGO_EL_CASTOR_TRANSPARENTE.jpg",
+        "url": "el-castor"
+    }
+},
+{
+    "model": "pages.proyectos",
+    "pk": 4,
+    "fields": {
+        "nombre": "KOOP",
+        "descripcion_corta": "LA FORMA INTELIGENTE DE COMPRAR TUS COMMODITIES",
+        "etapa": "Desarrollo",
+        "contenido": "<p style=\"text-align:justify\">La industria consume una infinidad de insumos gen&eacute;ricos: cajas de cart&oacute;n, botellas de pl&aacute;stico, bolsas de papel y pl&aacute;stico, servicios de limpieza, servicios de vigilancia, productos qu&iacute;micos, uniformes, papeler&iacute;a y art&iacute;culos de oficina, etiquetas, etc., con la principal caracter&iacute;stica que son productos con una gran variedad de proveedores y que una vez que se acuerdan las especificaciones del producto o servicio no hay mayor diferenciaci&oacute;n entre un proveedor y otro.</p>\r\n\r\n<p style=\"text-align:justify\">El proceso de compra de estos insumos se lleva a cabo de forma tradicional, cotizando con 2, 3 o m&aacute;s proveedores, elaborando el cuadro comparativo y asignando la partida de forma peri&oacute;dica.</p>\r\n\r\n<p style=\"text-align:justify\">Este proceso es est&aacute;tico porque no le permite al comprador una verdadera competencia entre proveedores y el n&uacute;mero de convocados es generalmente limitado a aquellos proveedores m&aacute;s conocidos en el medio o por el comprador.</p>\r\n\r\n<p style=\"text-align:justify\">Para este segmento de las compras se ha utilizado en muchas partes del mundo el proceso de subasta inversa, donde el comprador postea su requerimiento con todas las especificaciones y se invita a proveedores a participar en una subasta un d&iacute;a determinado, en &eacute;sta, a partir de un precio de inicio o un precio inicial no determinado, los proveedores en tiempo real pujan en orden descendente y conforme los precios bajan van dejando la subasta hasta que hay uno con el precio m&aacute;s bajo (dentro del tiempo establecido para la subasta), as&iacute; el cliente elije la propuesta que represente para &eacute;l el mejor valor de adquisici&oacute;n.</p>\r\n\r\n<p style=\"text-align:justify\">EUREKA proporciona una plataforma digital y una metodolog&iacute;a y asistencia al comprador para realizar todo el proceso de la subasta de forma virtual de manera tal que pueden participar una gran cantidad de proveedores y ofrecerle al comprador m&uacute;ltiples opciones para comprar sin importar la localizaci&oacute;n de comprador y vendedor.</p>\r\n\r\n<p style=\"text-align:justify\">Mediante la utilizaci&oacute;n de esta metodolog&iacute;a se reportan ahorros en las compras de insumos &ldquo;commodities&rdquo; y servicios de entre el 12 % y el 45% de su valor previo de adquisici&oacute;n.</p>\r\n\r\n<p style=\"text-align:justify\">EUREKA organiza todo el proceso de la subasta y mediante su plataforma digital la realiza en l&iacute;nea el d&iacute;a convenido, durante el evento hay un chat en vivo con el comprador para que los proveedores puedan aclarar dudas de &uacute;ltimo momento y modificar sus precios en consecuencia.</p>\r\n\r\n<p style=\"text-align:justify\">EUREKA puede asistir al comprador a identificar los productos sujetos a esta metodolog&iacute;a de compra, desarrollar las especificaciones de los productos, preparar las bases de la subasta y convocar a los proveedores.</p>\r\n\r\n<p style=\"text-align:justify\">Las subastas pueden contemplar m&uacute;ltiples listados de art&iacute;culos o una sola partida, y el cliente puede asignar diferentes partidas a diferentes proveedores o todo el requerimiento a un solo proveedor.</p>\r\n\r\n<p style=\"text-align:justify\">Todo el proceso est&aacute; amparado por un contrato firmado por cliente y proveedor y en caso de requerirlo el cliente se solicita una fianza de cumplimiento.</p>",
+        "fecha": "2021-10-15T05:21:45Z",
+        "activa": true,
+        "url_imagen": "https://hzaratecode.com/LOGO_KOOP.png",
+        "url": "koop"
+    }
+},
+{
+    "model": "pages.proyectos",
+    "pk": 5,
+    "fields": {
+        "nombre": "WIPO",
+        "descripcion_corta": "LLEVATE EL MEJOR DEAL Y AYUDA A AYUDAR",
+        "etapa": "Planeación",
+        "contenido": "<p>En los &uacute;ltimos 15 a&ntilde;os se ha registrado en M&eacute;xico una explosi&oacute;n de instituciones de asistencia privada: Fundaciones, ONG&acute;S, Asociaciones con la finalidad &uacute;ltima de ayudar a los m&aacute;s necesitados.</p>\r\n\r\n<p>La lucha diaria de estas instituciones es por la procuraci&oacute;n de fondos, de por s&iacute; una labor dif&iacute;cil ahora m&aacute;s con las condiciones econ&oacute;micas prevalecientes, todas prefieren recibir donaciones monetarias, pero esto cada vez su vuelve m&aacute;s dif&iacute;cil y las empresas cada vez tienen menores presupuestos para estos rubros.</p>\r\n\r\n<p>Es frecuente que las empresas ofrezcan donaciones en especie a las IAPS dado que de esta forma se pueden deducir fiscalmente al 100% algunos productos que posiblemente sean obsoletos, ya no est&eacute;n en el cat&aacute;logo de temporada, sean excedentes de inventario, etc.</p>\r\n\r\n<p>Las IAPS tienen un gran problema con la monetizaci&oacute;n de estas donaciones en especie dadas las regulaciones fiscales actuales y el poco poder de difusi&oacute;n de estas instituciones para sus inventarios de donaciones en especie, por lo que tratan de limitar al m&iacute;nimo las donaciones en especie.</p>\r\n\r\n<p>WIPO les ofrece una plataforma para publicar y monetizar dichas donaciones quitando toda la complicaci&oacute;n reglamentaria en el manejo de este concepto, abriendo as&iacute; una llave importante para la procuraci&oacute;n de fondos que les permitir&aacute; monetizar estos activos en el corto plazo.</p>\r\n\r\n<p>El p&uacute;blico en general accede a WIPO y navega entre todas las opciones de art&iacute;culos ofrecidos ya sea en la vista general o por categor&iacute;as y si hay alguno o algunos que le interesan puede realizar la compra o hacer una oferta, en este caso si la oferta es aprobada por la IAP, se le comunica al cliente y &eacute;ste realiza la compra y se completa el proceso.</p>",
+        "fecha": "2021-10-15T05:22:58Z",
+        "activa": true,
+        "url_imagen": "https://hzaratecode.com/LOGO_WIPO.png",
+        "url": "wipo"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-10-15T05:12:16.430Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "1",
+        "object_repr": "Enlace",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-10-15T05:14:05.399Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "2",
+        "object_repr": "FLETE SEGURO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-10-15T05:14:20.922Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "1",
+        "object_repr": "ENLACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre del proyecto\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-10-15T05:21:22.168Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "3",
+        "object_repr": "EL CASTOR",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-10-15T05:21:37.482Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "1",
+        "object_repr": "ENLACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Etapa\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-10-15T05:22:37.875Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "4",
+        "object_repr": "EUREKA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-10-15T05:23:43.866Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "5",
+        "object_repr": "WIPO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-10-15T05:49:18.003Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "2",
+        "object_repr": "FLETE SEGURO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url imagen\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-10-16T17:23:18.971Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "5",
+        "object_repr": "WIPO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Informaci\\u00f3n completa\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-10-16T17:23:35.449Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "5",
+        "object_repr": "WIPO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Informaci\\u00f3n completa\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-10-18T18:22:50.323Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "1",
+        "object_repr": "ENLACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descripci\\u00f3n corta\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-10-18T18:23:07.055Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "2",
+        "object_repr": "FLETE SEGURO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descripci\\u00f3n corta\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-10-18T18:23:22.906Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "3",
+        "object_repr": "EL CASTOR",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descripci\\u00f3n corta\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-10-18T19:55:44.031Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "mensajes"
+        ],
+        "object_id": "2",
+        "object_repr": "Mensaje enviado por hugazo98g@gmail.com el día 2021-10-18 19:55:22+00:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is answered\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-10-19T02:32:04.152Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "newsletter"
+        ],
+        "object_id": "2",
+        "object_repr": "Mensaje enviado por 2 el día sdasd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-10-19T02:32:04.241Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "newsletter"
+        ],
+        "object_id": "1",
+        "object_repr": "Mensaje enviado por 1 el día False",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-10-19T02:46:29.314Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "newsletter"
+        ],
+        "object_id": "2",
+        "object_repr": "fsdfsd se suscribio el día 2021-10-19 02:46:10.843224+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-10-19T02:46:29.398Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "newsletter"
+        ],
+        "object_id": "1",
+        "object_repr": "hugazo98g@gmail.com se suscribio el día 2021-10-19 02:33:21.294699+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-10-19T02:57:37.227Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "5",
+        "object_repr": "WIPO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Proyecto activo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-10-19T02:57:41.871Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "4",
+        "object_repr": "EUREKA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Proyecto activo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-10-19T03:32:34.726Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "4",
+        "object_repr": "KOOP",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre del proyecto\", \"Descripci\\u00f3n corta\", \"Url imagen\", \"Url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-10-19T03:32:45.634Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "4",
+        "object_repr": "KOOP",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Proyecto activo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-10-19T03:33:29.829Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "proyectos"
+        ],
+        "object_id": "5",
+        "object_repr": "WIPO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descripci\\u00f3n corta\", \"Proyecto activo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-10-19T04:28:30.257Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "mensajes"
+        ],
+        "object_id": "3",
+        "object_repr": "Mensaje enviado por usuario4@gmail.com el día 2021-10-19 02:09:07.069839+00:00, respondido: False ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-10-19T04:28:30.329Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "mensajes"
+        ],
+        "object_id": "2",
+        "object_repr": "Mensaje enviado por hugazo98g@gmail.com el día 2021-10-18 19:55:22+00:00, respondido: True ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-10-19T04:28:30.433Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "mensajes"
+        ],
+        "object_id": "1",
+        "object_repr": "Mensaje enviado por hugazo98g@gmail.com el día 2021-10-18 19:51:44.056718+00:00, respondido: False ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-10-19T04:28:35.538Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "mensajesproyectos"
+        ],
+        "object_id": "2",
+        "object_repr": "Interes enviado por hugazo98g@gmail.com el día 2021-10-19 04:27:56.876062+00:00, respondido: False",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-10-19T04:28:35.603Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "mensajesproyectos"
+        ],
+        "object_id": "1",
+        "object_repr": "Interes enviado por hugazo98g@gmail.com el día 2021-10-19 04:26:38.388510+00:00, respondido: False",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-10-19T04:28:45.096Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "newsletter"
+        ],
+        "object_id": "3",
+        "object_repr": " se suscribio el día 2021-10-19 02:47:23.744365+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]

@@ -36,39 +36,49 @@
                       </h2>
                       <ul class="blog-info-link mt-3 mb-4">
                         <li><a href="#"><i class="fa fa-user"></i>Estatus</a></li>
-                        <li><a href="#"><i class="fa fa-comments"></i> En desarrollo</a></li>
+                        <li><a href="#"><i class="fa fa-comments"></i>{{proyecto.etapa}}</a></li>
                       </ul>
                       {{proyecto.contenido|safe}}
                    </div>
                 </div>
                 <div class="comment-form">
                    <h4>Quiero saber más</h4>
-                   <form class="form-contact comment_form" action="#" id="commentForm">
+                   <form class="form-contact comment_form" action="{% url 'mensaje-proyecto' %}" method="post" id="commentForm">
+                     {% csrf_token %}
                       <div class="row">
-                         <div class="col-12">
-                            <div class="form-group">
-                               <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9"
-                                  placeholder="Write Comment"></textarea>
-                            </div>
-                         </div>
-                         <div class="col-sm-6">
-                            <div class="form-group">
-                               <input class="form-control" name="name" id="name" type="text" placeholder="Name">
-                            </div>
-                         </div>
-                         <div class="col-sm-6">
-                            <div class="form-group">
-                               <input class="form-control" name="email" id="email" type="email" placeholder="Email">
-                            </div>
-                         </div>
-                         <div class="col-12">
-                            <div class="form-group">
-                               <input class="form-control" name="website" id="website" type="text" placeholder="Website">
-                            </div>
-                         </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input class="form-control" name="namePro" id="namePro" type="text" placeholder="Nombre del proyecto">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input class="form-control" name="name" id="name" type="text" placeholder="Nombre del interesado" required>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input class="form-control valid" name="email" id="email" type="email" placeholder="Email" required>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input class="form-control" name="phone" id="phone" type="phone" placeholder="Télefono" required>
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="form-group">
+                              <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9"
+                                 placeholder="Motivo de interés" required></textarea>
+                           </div>
+                        </div>
                       </div>
+                      <div class="form-group mt-3">
+                        <script src="https://www.google.com/recaptcha/api.js"></script>
+                        <div class="g-recaptcha ml-3" data-sitekey="6LeR09scAAAAALfegBVQ64XoZ0qL6wzVSJxj5qJS"></div>
+                    </div>
                       <div class="form-group">
-                         <button type="submit" class="button button-contactForm btn_1 boxed-btn">Send Message</button>
+                         <button type="submit" class="button button-contactForm btn_1 boxed-btn">Enviar</button>
                       </div>
                    </form>
                 </div>
@@ -80,9 +90,9 @@
                       <h3 class="widget_title">Otros proyectos</h3>
                       {% for proyecto in proyectos %}
                       <div class="media post_item">
-                         <img src="{{proyecto.url_imagen}}" alt="post">
+                         
                          <div class="media-body">
-                            <a href="{{proyecto.url}}">
+                            <a href="{{proyecto.get_absolute_url}}">
                                <h3>{{proyecto.nombre}}</h3>
                             </a>
                             <p>{{proyecto.etapa}}</p>
