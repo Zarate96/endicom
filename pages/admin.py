@@ -12,4 +12,9 @@ admin.site.register(Proyectos)
 
 admin.site.register(Newsletter)
 
-admin.site.register(MensajesProyectos)
+class MensajesProyectotAdmin(admin.ModelAdmin):
+    list_display = ('id', 'nombre', 'email', 'telefono', 'asunto', 'is_answered')
+    search_fields = ('nombre', 'email')
+    list_per_page = 10
+
+admin.site.register(MensajesProyectos, MensajesProyectotAdmin)
